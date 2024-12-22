@@ -1,0 +1,63 @@
+header ul li
+{
+    display: inline;
+    
+}
+button
+{
+    width: 200px;
+    margin-left: 35px;
+    height: 30px;
+    border-radius: 10px;
+    border: #222 solid 1px;
+    background-color: #222;
+    color: white;
+}
+body header
+{
+    border: black solid 1px;
+    grid-area: header;
+    height: 70px;
+}
+body #f1
+{
+    grid-area: f1;
+    background-image: url(/exercise3/WPR1X1\ ST\ Addendum/banner.PNG);
+    height: 400px;
+    width: 600px;
+}
+body form
+{
+    grid-area: form;
+    background-color: blue;
+    width: auto;
+    height: 400px;
+}
+body
+{
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "header header header"
+                         "f1 f1 form"
+                         "f1 f1 form" 
+                         "footer footer footer"   ;
+
+}
+body footer
+{
+    grid-area: footer;
+    background-color: aqua;
+}
+section div
+{
+    display: inline-block;
+    
+}
+#midsec ul li
+{
+    display: inline-block;
+}
+
